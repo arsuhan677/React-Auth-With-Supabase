@@ -42,9 +42,9 @@ function Footer(props) {
         </div>
       </div>
 
-      <div className="text-center text-gray-500 mt-8">
+      {/* <div className="text-center text-gray-500 mt-8">
         &copy; {new Date().getFullYear()} MyShop. All rights reserved.
-      </div>
+      </div> */}
     </footer>
     );
 }
