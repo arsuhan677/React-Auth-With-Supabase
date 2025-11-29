@@ -5,7 +5,7 @@ import Footer from "../component/nav/Footer";
 
 const Root = () => {
   return (
-    <main>
+    <main className="min-h-screen flex flex-col">
       <header>
         <Nav />
       </header>

@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router";
 import supabase from "../../Utils/supabase";
-function Nav() {
-  const [count, setCount] = useState();
+import { useSelector } from "react-redux";
 
+function Nav() {
+  const value = useSelector((state) => state.counter.value);
   const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const handleLogout = async () => {
     const { error } = await supabase.auth.signOut();
     if (error) {
@@ -12,90 +15,69 @@ function Nav() {
       return;
     }
     navigate("/login");
-    // alert("Logout Success.");
-  };
-  const handleSignUp = () => {
-    navigate("/register");
   };
 
   useEffect(() => {
     const checkSession = async () => {
-      console.log("test");
-      const { data, error } = await supabase.auth.getSession();
-      if (error) {
-        console.log("Error checking session:", error);
-        return;
-      }
-      if (data.session) {
-        navigate("/");
-        console.log("User is signed in:", data.session);
-      }
+      const { data } = await supabase.auth.getSession();
+      if (data.session) navigate("/");
     };
     checkSession();
   }, []);
 
   return (
-    <header className="bg-white shadow-md p-4 ">
-      <div className="container mx-auto flex justify-between items-center ">
-        <div className="">
-          {/* Logo */}
-          <Link to={"/"} className="text-2xl font-bold">
-            HattBazaar
-          </Link>
-        </div>
+    <header className="bg-white shadow-md p-4">
+      <div className="container mx-auto flex justify-between items-center">
 
-        {/* Navigation */}
-        <nav className="flex items-center text-xl space-x-12">
-          <a
-            href="/products"
-            className="text-gray-700 hover:text-blue-500 transform transition ease-in duration-300 hover:scale-110"
-          >
-            Products
-          </a>
-          <a
-            href=""
-            className="text-gray-700 hover:text-blue-500 transform transition ease-in duration-300 hover:scale-110"
-          >
-            Shop
-          </a>
-          <a
-            href="#"
-            className="text-gray-700 hover:text-blue-500 transform transition ease-in duration-300 hover:scale-110"
-          >
-            About
-          </a>
-          {/* <a
-            href="/admin"
-            className="text-gray-700 hover:text-blue-500 transform transition ease-in duration-300 hover:scale-110"
-          >
-            Admin Page
-          </a> */}
-          {/* Action buttons */}
-          {/* <div className="flex items-center gap-6">
-          <input
-            type="text"
-            placeholder="Search..."
-            className="border border-gray-300 rounded-full p-2 px-18 focus:outline-none focus:ring-2 focus:ring-blue-400"
-          />
-        </div> */}
-        </nav>
-        <div className="flex items-center space-x-3">
-          <button className="bg-gray-200 p-2 rounded hover:bg-gray-300">
-            🛒 Cart <span>{count}</span>
-          </button>
+        {/* LEFT: Logo */}
+        <Link to="/" className="text-2xl font-bold">
+          HattBazaar
+        </Link>
 
-          <button
-            onClick={handleLogout}
-            className="cursor-pointer hover:bg-gray-300 py-2 px-5 rounded-lg font-semibold text-black"
-          >
-            signOut
-          </button>
-          <button
-            onClick={handleSignUp}
-            className="cursor-pointer bg-blue-400 items-center justify-center hover:bg-blue-500 py-2 px-5 rounded-lg text-white font-bold"
-          >
-            signUp
-          </button>
+        {/* MOBILE TOGGLE */}
+        <button
+          className="md:hidden text-3xl"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </button>
+
+        {/* NAV BAR */}
+        <div
+          className={`
+            md:flex md:items-center 
+            md:space-x-12 
+            absolute md:static left-0 top-16 
+            w-full md:w-auto bg-white md:bg-transparent 
+            shadow-md md:shadow-none p-5 md:p-0 
+            transition-all duration-300
+            ${menuOpen ? "block" : "hidden md:flex"}
+          `}
+        >
+
+          {/* CENTER MENU */}
+          <nav className="flex flex-col md:flex-row items-center gap-5 md:gap-10 mx-auto">
+            <a href="/products" className="nav-item">Products</a>
+            <a href="/shop" className="nav-item">Shop</a>
+            <a href="#" className="nav-item">About</a>
+          </nav>
+
+          {/* RIGHT BUTTONS */}
+          <div className="flex flex-col md:flex-row items-center gap-4 mt-4 md:mt-0">
+            <button
+              onClick={() => navigate("/addtocart")}
+              className="bg-gray-200 p-2 rounded hover:bg-gray-300 flex items-center"
+            >
+              🛒 Cart: {value}
+            </button>
+
+            <button
+              onClick={handleLogout}
+              className="hover:bg-gray-300 py-2 px-5 rounded-lg font-semibold"
+            >
+              SignOut
+            </button>
+          </div>
         </div>
       </div>
     </header>

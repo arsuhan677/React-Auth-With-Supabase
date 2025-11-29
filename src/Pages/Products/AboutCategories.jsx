@@ -41,30 +41,3 @@ const AboutCategories = () => {
 };
 
 export default AboutCategories;
-
-
-
-
-
-
-
-
-
-
-
-// import React from "react";
-
-// const AboutCategories = () => {
-//   return (
-//     <div>
-//       <div>
-//         <h3>Categories</h3>
-//       </div>
-//       <div>
-//         <label htmlFor=""></label>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default AboutCategories;

@@ -11,7 +11,8 @@ import Store from "./component/admin/Store";
 import Login from "./adminlogin/Login";
 import Register from "./adminlogin/Register";
 import Products from "./Pages/Products/Products";
-import Electronics from "./Pages/Products/Electronics";
+import AddToCart from "./Pages/addtocart/AddToCart";
+// import Electronics from "./Pages/Products/Electronics";
 // import ProductRoot from "./layout/ProductRoot";
 // import Products from "./Pages/Products/Products";
 
@@ -26,11 +27,12 @@ export const routes = createBrowserRouter([
         Component: Products,
         children: [
           { index: true, Component: Cart },
-          { path: "/products/electronocs", Component: Electronics },
+          { path: "/products/cart", Component: Cart },
           { path: "/products/new", Component: New },
           { path: "/products/categories", Component: Categories },
         ],
       },
+      { path: "/addtocart", Component: AddToCart }
     ],
   },
   {
@@ -43,25 +45,11 @@ export const routes = createBrowserRouter([
     ],
   },
   {
-   path: "/login", Component: Login 
+    path: "/login",
+    Component: Login,
   },
   {
-    path: "/register", Component: Register
+    path: "/register",
+    Component: Register,
   },
 ]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

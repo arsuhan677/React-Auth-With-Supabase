@@ -25,7 +25,7 @@ function Sidebar() {
 
   const menuItems = [
     { id: 1, label: "Dashboard", icon: Home, badge: "", path: "/" },
-    { id: 2, label: "User", icon: User, badge: "3", path: "/admin/users" },
+    { id: 2, label: "Add-product", icon: User, badge: "3", path: "/admin/users" },
     {
       id: 3,
       label: "E-commerce",
@@ -37,7 +37,7 @@ function Sidebar() {
         { id: "3-3", label: "Customers" },
       ],
     },
-    { id: 4, label: "Inventory", icon: Package, badge: "", path: "/admin/store" },
+    { id: 4, label: "Order", icon: Package, badge: "", path: "/admin/store" },
     {
       id: 5,
       label: "Message",
@@ -89,7 +89,7 @@ function Sidebar() {
                 w-full flex items-center justify-between p-3 rounded-xl transition-all duration-200
                 ${
                   item.id === 1
-                    ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white"
+                    ? "from-blue-600 to-purple-600 text-slate-600"
                     : activeMenu === item.id
                     ? "bg-slate-400 text-white shadow-md"
                     : "hover:bg-slate-100 dark:hover:bg-slate-800"

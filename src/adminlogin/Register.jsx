@@ -75,7 +75,7 @@ const Register = () => {
         <p>
           Already have account?
           <span
-            onClick={() => navigate("/admin-login")}
+            onClick={() => navigate("/login")}
             className="text-red-600 cursor-pointer"
           >
             Login

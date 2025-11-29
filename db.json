@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": "1547",
+      "name": "Candice Schultz",
+      "price": "598",
+      "description": "Vitae fugit eaque o",
+      "image": "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?cs=srgb&dl=pexels-eric-mufasa-578798-1350789.jpg&fm=jpg",
+      "categoryId": "12",
+      "inStock": "false"
+    },
+    {
+      "id": "3afd",
+      "name": "Amber Hurst",
+      "price": "520",
+      "description": "Officia cupiditate s",
+      "image": "https://media.istockphoto.com/id/1415799772/photo/home-interior-with-vintage-furniture.jpg?s=612x612&w=0&k=20&c=E5aUyAFo5_xjHcdk0nEZGVDipOkYEtyXQmJBskUbqo8=",
+      "categoryId": "62",
+      "inStock": "false"
+    },
+    {
+      "id": "5052",
+      "categoryId": "47",
+      "price": "393",
+      "description": "Nihil nemo minus dis",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA3AMBEQACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAABAgADBAUGB//EAEYQAAEEAAQCBQcIBwYHAAAAAAEAAgMRBAUSIQYxQVFhcYETIjKRscHRFBYzQlJyk6EjJENigoOSFVNzdLLiBzVERVWi0v/EABoBAQEAAwEBAAAAAAAAAAAAAAABAgMFBAb/xAAyEQEAAgECBAMHAwMFAAAAAAAAAQIRAwQSEyExBRRRIjIzQWFxoUJSgRWx8CORwdHh/9oADAMBAAIRAxEAPwB1wXXBBEDNRGiNBpYiSvaiLWoLGohwgZAQgKIKAIqWEAtACUAQBAEClFId1he9axmZXBHELyX3Np92GUVVufYWibTbvLOIwrJUFblQiDEuqwRAPAqhm81EaI0yNMaC9qZYrWoLGohkDICEBBQQlALQRALQS0AQBAHFFITXNeXV3EV6VZRVU99rxWmbTmWeFZKKQlApKoQoEVGJdVgiCqcamtbqcA4gEtNHmFnX5sZ7lGEYf2uI/GcnF9DhhczAs/vsT+O74qcX0OGGhuXxn9vi/DEO+KcSYhaMujAs4nGAf5hycX0OGHBxGZQtw/yiH+03wF2kPONLb8N1uis/PD2Rs/a4ZtiS4HjPDYJhZNBi5QXXqdP5QjsF0k6U27MbbWY/U9ng8VFjMLFiYHaopW6mlaJjHSXlmMThfaiDaCICgCAWgCCIJaBSUUrnAd68Otr8Xs1ZxVS91leVmrJVCoASqFKBCVQqDEuqwRBXL9T7w9oWVe0/ZjPeFrViyXsRGmNElcfOjIHOig8XNlGcNyxmCbljnua/UXieOj6zf5L18ynDiZe6d3WdWb4cs8J57LqcMFpIOwMzN/G1Y1aerG24pM5fRchw0uCyjCYbEACWNlO0mxfevLaczl47zm0zDoWsWIoDaCEoAgFoJaCWgBKKVxoWfUvFuNb9FWcVUOdZXlZltApQKVQCgUlAhVCoMa6rAEFcvNn3h7Qso7T9mM94WN5rFWhiDTGiSvYUFoRDDkgYFAw5og2gIKCEoBaAWgloASioD19C06+rwV6d1iFMj7K5rarJVCoASqAgUlApVClAqDGuqwC0FUvNvePaFnXtLGe8LWndYq0RlQaI0SV7EFrSiHvZAQUBBQNaIIKCEoBaAWgFoISkrBJHVsFy9W83tltiFRKwUtoASqBaBSUCkqhSgUlAFRitdVgFoK5Tu3vHtCyr2ljPeFg5rFWiMqDTGUSVzSgtBRDgoICga0BtAbQS0QCUULQC0Ea7ez0LRuL8NGVYUucue2FtUC0CkoBaBSVQCUCkoFJpUC0GJdVgFohJD6PePaFlHaUnvBwTaxVojQaWKJK9qCxpRF0Ub5QdLdh0rbpaVtXs1autXSj2lYcC5wH1TXemtpcq3Cmhq82vEa1qbjWgloJaCEoFJQC0CF3md5Xh3Ns3x6NlY6Ki5aGQakA1IBaAEoBaBbVwASgBKBbQYbXVYBaISQ8vD2hZR2ljPeDtO6xZNEZQdHL8McZOIWvDXuHmgjmtmlp8y3Dlq1tXl14sZapMLHDP5F+Ibq7F6/6fMd7fh4p38ft/KxsUTOZLj27LZTZ0jvOWq++1J93oMsztNMaB2DZY33u20vZm0Rj5f5DGNruNX2+HOfn/AJLnfpoXucYnPDuhpFrx6+82urj2/wC727fa7jSz7Pf7I3GkmjhpR3lvxWidXbRGeb+JeqNPXn9H5hkn4iwmHmdFLHOHjn5or2r26Oz51I1KW6T93j1t5ybzS9JzCv50YDql/pHxW3+nW9Y/LT/Uqftk7eJcA4/tR3tUnw6/ytCx4lT9stWGzXB4pwbHMNXQHCiVp1Nnq6cZw36e80dTpEtTivK9RXO2RYVvdy7lzLzm0y2wr1LEC0EtANSoBcgaJj5n6WVYBO5rks9PTtqX4a90taKxmVdhYqBKAEoBaDASuowC0Qjzt4j2hZ17SxnvB2lYsl8ZUHf4WAdmzT9iN7vyr3r07OM60PNu5xpS8Pm2YPjxmKmdI4aJA6x96veu1qdnB0urvZXmwxWHB84Gq3C0tuHWwMvyyGWMn9Ph9+17D7x71xfFtnx151O8d/q7Hhm54f8ATt2F9EhrSdRGwHNfNfV3Yc/GOETi3VuN7K20jKw85xDhziGDExbSRjzh9oLu+E7mNK06Vu09vo5Piu0nVpza96/mHmxPy3X0r5rC9kt1q5KscLWSbhwcQR1Ij3WUYv5ZlsEx5ubTu8Gj7F8/uaRTVmIfQ7a/M0q2aJHU0rRL0Qrkf5xXLbVepUTUgmpANSCah1qq9LkOBhbl/wAskoyShwaPstHxors7Db1inNnvP9v/AF4dxeZtw/JwsybFHi3Mg9G+XUV4t7oRp3zXtLfo3m1eqkQyuhdKGOLGmiaXkikzGW3ijsrvrUULCK55K6bWW1UK87er/UFnXtKT3gzTusFaIyg9Hwjvjpz1Yd3uXr2Mf6v8PJvfhPmHEW7My338m4jwIK7F+zi6HeD8MZiHwtAdbmDzgTVBaMNtukurHxXBlOdYXEeWZoDw2YX9Q7E+HPwUmPVlpzMT0e4zQRZW1uIfK0MxAtpG47gvlPENlOnrYpE8Mvp9rr86mLd4eLzTPsO6YnW1ovZpduro7W+G+dSIYm5i6T6OGV4/dYT7l6a7PU+UNE7qnqwScP5nPM5+CwM7oXbttmmuzdfQ7bUtbT9vpMPnN1o1pqTy5zWVkfDWf/8AjJ/y+K9OYeSaSubw3nw/7ZiPy+KZhOCXquGMszHC5V5HF4SWORsrqB6juuVvdG99XNY+Tq7LUpTSxaXRlwmKI2gk9S8k7fWx7r1xr6WfeUyYTFXfyeT1Ln+T14/RLbz9L9yl8GIbzgl/oKxtt9aves/7Mo1dOe1oUucWmiCD1HZapia9LdGcdew6lFTUg5+aZhisIWjDYQzgiyRe3qXo0dKl/enDZSkW7zgkXG+Iw+XOwuIhDJAHeTb5wNEHnY6yV19CsaenwxOY/wC2nV2sTfMWhRnXHEOLgY3CYd0D7Bk3AF+B3BVtXijEwtdvj5wzO/4h5i+J0Aw7XNqm+TPIepa42+IjM9GFtOInK/Js8mzCYQPwMzPNJMxvTfqXh3G2ikccWj7M4mO0O1a8Sufa6bWFoFcdj4f6mrOvaWM94M07rBWiMoPScIH9bxP+Xd7l7Nj8Sfs8e++E+exRsxXEBw8zGvjmeY3NI2NldeXEpOMPXzSZVlemOHKYJCwUDK3VXd1LLgiEnVlmk4wlgdUOEgjA6Gx0mIOO0sOP4pdjQG4nBYaZoNgSQhwB8VjNaz3hlGpqR2lTFxNLBQw+DwsX3MO1vsCuK+hN7z3lqHGOPb6LWjuYFcwx4riOM8xdtbR/AE6HFYfnhmf2/wD1CdE47GHGOY3u8X90JiDjss+d2Yn6zf6UxBzLiOLcwvmPFiYhOZZYeLsa0DZp/gVmIWNSyt3GmKaPomOP3VJiF5lmZ/HDpHiPEYNrgduXxWu1aTHWMt1L2jtK4zxzHXE3S076epfNeIaFdHV9jtLu7TUtqaftCHLw4eodSYgcPiKNkssReAaaa27QvovBaxOnb7vnPHL2rqUx6PO4vDMDbAHgurasOXpa1p+bRweNOcu/wne5cnxSI5H8u54dOdX+HttS+edsC7dMDHFFLO4thje9w3OkXXeunFZt2hqtaI7tjMmzGTlhiL63Ae9beRf0a51qeppMhx7HRskELTM7Sy5OnnvXcsuTeP5Yzq1nsv8AmxmQ3vDH+cE8tqHPoTE5Tj8FF5XEwgR3Wpr2uH5Fa7aV6RmYZV1KW7S6vCDv1+ZvXhn+0Lfsvi/w0b34TwmWtceL4GjkMQfyv4Ls/Nw6dndzn6Z9brOXn+by+IB1mx+SwluhnUZJqooH1KsTNdugtYSTsqggG9wfWgcdxRDhxHWgjn2EGeUqLDnSb4od6wluq9dhXVC3uC4PinxI+zt7H3J+68OXMw9xtSYHE4gfUsX3T7QvoPBvh2+//D53xyPbp9nFxDrYutZyNOFvCn/N3f4TvaFyfFPgfy7nhvxZ+z2GpfPu8Foj0v8Aw0jcMxxwkbsYW7H7y722riZeDc2zEPfPiiI+iZ/SF7MPKyYhkTeUTdt9godXDx87mmg8iuSivMZxODGRI81Y5latb3G3S94eFsVAzOYgJPOka5nrF+5atvw11IlnuYmdKYea4ewkknGchc0hsLpHX3Aj3rq5jOHFiPZbs4eGzuvtWyXmeeneDtyWLZDK4i1GUFJB2JUUWtBHpUERYNI5OBVQzHhrkRc2QOFVXaqHDm3zCIBcD0oJVjY0gqmbTSdW6iw5RP603vWEt9XtMvjZJCC6+z1LlbvTpe8Z9HX2lpik/drMEY5Ery+X0/R6eZJHNiZ6RU8vp+i8VnmeJpWDEwiPloO5Paup4fWKVmIcbxXNrVy4z5LbVr3y5Va4auGZY482LpTTfJO9y8O+rW2ni3q63h8zGp09HrTiMILp5tcnk6TscVk8tGeQvvKcjT9F4pfQcqgME7nxhsZLatvM966FMxLyX6w6zp8Rv+mJ72t+C3cUtWIZMRJiH853Dua34KcUsorDmz4MzfSTSO8QPYFjmTDDJkWDc7U+HWet7i72lS3VY6CzLIoyPJMa1w3BFAgrCIhnxZ7sGKymd2IbLh3NY5rtfUSeu1u0tSa3zPVo1tLjpw16OXm+Cxs7GtZl7pZB6T43g333S9XmNPPV5PKamPk4UmQ5u47ZbIO+SP4rGdaixtr+kE+bedO5YAfxSsWPOoyjb39IMOFs6P8A0uHHfM33BOdRfL39IOOFM7/uMMP53+1OdU8tYw4VzgHePDD+af8A5TnV9Dy9vU44UzbpGF/FPwTn19Dy1vU44WzYfVw34p+CvPr6J5a3qh4ZzUfssP8Aj/7VefRPK3L83c0As4eHwmHwTn6bHy2p9FD8nzQO0jBkkfZkaU8xpnlNT6K5Mkzeq/s+Qk9GtnxTnUWNtf0hkPD2dueHR4ANvk50ke3qKwnVo2129npssyjMYcLHHOWawN6de68V4zOXurOIw6MeAmOz6B71jwssoMucXecAnCcSnFZLBOR5aJjgBVOFrZSeHs13iLd4yzu4Yy888Kzw2WzmX9Wrkaf7YGDh3Awv1R4aJrqq9K13mbRiZbNOlaTmIahlkYbbYo769K1cLdkow8TRpLXEjsCnRer2sRMbyV6I6NE9Wjy4VyxwrfICmTCl7x0AqcS4VOcegElSZXANY5zxqoCt0rEzJPRS2FvlBqeTXQrjqsysNgaRsFZYELR1DxWKwUg3sLHt7kUdHWN0QrWUDtzRR0gdCqBoCBXiqA5nkilc2+gEqZMKBC9+pxJjaeQHNTqy6GZE2Mekb7VUlNjzBPVsiIW1sAB2IqAD0QL2uwsZWE0g71RRQ3vcBAHNHUFYYyQtCoXSeY3UlYK5oI2F9SwllEszon6iXazfUVhiWefq9OXjr1HoAW/LSmo1sKCgUk/vIEe40pKwg2b3qoMbwCW0Sa5BZVlLQVuq7FBSAxH7xJWUwgEKBXg9GyiwgKIh7ECmukoKnS27QweKZXA1zLnFArvP6/FALBoHo6UVHVz3KCoSOLiAD6lFQAj0nkomTAKSsARtQNFACSOfNACbCsMZJW5VUrnlottX2qSsKmPLr53fcsGWDlu++6qO4O3buWbENQpERAhCipt3oGjIF11LKrGyov8AOHeool6ylCa1iQDiTfO0ZFMjgLIUyK3TXQsE9iZMCacLNjwQFrnVsUQQSe0qgEnkiAUUu3SLQDZACoJdbKMoQlBXIeXNArmvqxy7VRW4uNgplVLntaaNdixlYMwkXufFQNrIQw7BH6cNs11K5YyJcQSAskgocXE30IoEkmiiGGyBmnn3LKrGWZ9lw8481iyJZHb3ouBa8kqZBkJ0g2mSIYS9xe5xN0OlYs8NLNmg9KzYmG+6MUJpAhJNkkmuhSTARk+Udvdi1MqYkq5Qocd90yoajfNUOCoFcTSCqiSfOKigXFp2N96i9zMe4tItXKKJ3EMJ7FZWGTWWsoVVdIWuO7JpJIaHdJ5rJiIVH//Z",
+      "inStock": "true",
+      "name": "Aline Hanson"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "supabase-uid",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2,
+          "price": 1999
+        }
+      ],
+      "total": 3998,
+      "status": "pending",
+      "shippingAddress": "…",
+      "createdAt": "2025-01-01T10:00:00Z"
+    }
+  ]
+}

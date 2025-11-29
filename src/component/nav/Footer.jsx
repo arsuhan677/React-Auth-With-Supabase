@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 function Footer(props) {
-    return (
-        <footer className="bg-gray-800 text-white py-8">
+  return (
+    <footer className="bg-gray-800 text-white py-8">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* About */}
         <div>
@@ -17,16 +17,24 @@ function Footer(props) {
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-blue-400">Home</a>
+              <a href="#" className="hover:text-blue-400">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-400">Products</a>
+              <a href="#" className="hover:text-blue-400">
+                Products
+              </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-400">About</a>
+              <a href="#" className="hover:text-blue-400">
+                About
+              </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-400">Contact</a>
+              <a href="#" className="hover:text-blue-400">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
@@ -35,9 +43,15 @@ function Footer(props) {
         <div>
           <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-blue-400">Facebook</a>
-            <a href="#" className="hover:text-blue-400">Twitter</a>
-            <a href="#" className="hover:text-blue-400">Instagram</a>
+            <a href="#" className="hover:text-blue-400">
+              Facebook
+            </a>
+            <a href="#" className="hover:text-blue-400">
+              Twitter
+            </a>
+            <a href="#" className="hover:text-blue-400">
+              Instagram
+            </a>
           </div>
         </div>
       </div>
@@ -46,7 +60,7 @@ function Footer(props) {
         &copy; {new Date().getFullYear()} MyShop. All rights reserved.
       </div> */}
     </footer>
-    );
+  );
 }
 
 export default Footer;
