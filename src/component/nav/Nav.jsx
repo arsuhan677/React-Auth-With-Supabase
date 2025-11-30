@@ -26,7 +26,7 @@ function Nav() {
   }, []);
 
   return (
-    <header className="bg-white shadow-md p-4">
+    <header className="bg-white shadow-md p-4 relative z-50">
       <div className="container mx-auto flex justify-between items-center">
 
         {/* LEFT: Logo */}
@@ -45,21 +45,20 @@ function Nav() {
         {/* NAV BAR */}
         <div
           className={`
-            md:flex md:items-center 
-            md:space-x-12 
-            absolute md:static left-0 top-16 
-            w-full md:w-auto bg-white md:bg-transparent 
-            shadow-md md:shadow-none p-5 md:p-0 
-            transition-all duration-300
-            ${menuOpen ? "block" : "hidden md:flex"}
+            md:flex md:items-center md:space-x-12 
+            absolute md:static left-0 top-full w-full md:w-auto 
+            bg-white md:bg-transparent shadow-md md:shadow-none 
+            p-5 md:p-0 transition-all duration-300 
+            overflow-hidden
+            ${menuOpen ? "max-h-screen block" : "max-h-0 hidden md:flex"}
           `}
         >
 
           {/* CENTER MENU */}
           <nav className="flex flex-col md:flex-row items-center gap-5 md:gap-10 mx-auto">
-            <a href="/products" className="nav-item">Products</a>
-            <a href="/shop" className="nav-item">Shop</a>
-            <a href="#" className="nav-item">About</a>
+            <Link to="/products" className="nav-item">Products</Link>
+            <Link to="/shop" className="nav-item">Shop</Link>
+            <Link to="#" className="nav-item">About</Link>
           </nav>
 
           {/* RIGHT BUTTONS */}
