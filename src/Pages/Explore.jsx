@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 
 function Explore() {
   const bgImage = {
-    backgroundImage: "url('./public/images/6.webp')",
+    backgroundImage: "url('/images/6.webp')",
   };
 
   return (
