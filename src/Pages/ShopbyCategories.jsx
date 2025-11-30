@@ -5,47 +5,47 @@ const ShopbyCategories = () => {
     {
       id: 1,
       name: "boAt Airdopes Alpha",
-      images: "./public/shopims/1.png",
+      images: "/shopims/1.png",
     },
     {
       id: 2,
       name: "boAt Stone 350 Pro",
-      images: "./public/shopims/9.webp",
+      images: "/shopims/9.webp",
     },
     {
       id: 3,
       name: "boAt Nirvana Zenita Zenith Pro",
-      images: "./public/shopims/3.png",
+      images: "/shopims/3.png",
     },
     {
       id: 4,
       name: "boAt Lunar Discovery",
-      images: "./public/shopims/4.webp",
+      images: "/shopims/4.webp",
     },
     {
       id: 5,
       name: "boAt Rockerz 255 Pro+",
-      images: "./public/shopims/5.webp",
+      images: "/shopims/5.webp",
     },
     {
       id: 6,
       name: "boAt EnergyShroom PB300 Pro",
-      images: "./public/shopims/6.webp",
+      images: "/shopims/6.webp",
     },
     {
       id: 7,
       name: "boAt EnergyShroom PB300 Pro",
-      images: "./public/shopims/7.webp",
+      images: "/shopims/7.webp",
     },
     {
       id: 8,
       name: "boAt EnergyShroom PB300 Pro",
-      images: "./public/shopims/8.webp",
+      images: "/shopims/8.webp",
     },
     {
       id: 9,
       name: "boAt EnergyShroom PB300 Pro",
-      images: "./public/shopims/2.png",
+      images: "/shopims/2.png",
     },
   ];
   return (
