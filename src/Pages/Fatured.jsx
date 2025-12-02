@@ -24,7 +24,7 @@ function Fatured() {
   const dispatch = useDispatch();
 
   const getProduct = async () => {
-    const products = await fetch("http://localhost:3000/products")
+    const products = await fetch("https://react-e-commerce-project-sa.onrender.com/products")
     // const products = await fetch("/data/products.json")
       .then((res) => res.json())
       .catch((err) => console.log(err));

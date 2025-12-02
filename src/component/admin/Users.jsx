@@ -5,7 +5,7 @@ function Users() {
     name: "",
     price: "",
     description: "",
-    images: "",
+    image: "",
     categoryId: "",
     inStock: true,
   });
@@ -18,7 +18,7 @@ function Users() {
     e.preventDefault();
     console.log(product);
     try {
-      const result = await fetch("http://localhost:3000/products", {
+      const result = await fetch("https://react-e-commerce-project-sa.onrender.com/products", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -92,7 +92,7 @@ function Users() {
             name="image"
             className="w-full border p-2 rounded"
             placeholder="images url......"
-            value={product.images}
+            value={product.image}
             onChange={handleChange}
           />
         </div>
