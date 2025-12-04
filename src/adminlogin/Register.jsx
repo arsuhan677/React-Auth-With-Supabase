@@ -28,8 +28,8 @@ const Register = () => {
     if (data) {
       alert("Check your email to confirm your account!");
       console.log("success signin up", data);
+      navigate("/login");
     }
-    navigate("/");
   };
 
   return (

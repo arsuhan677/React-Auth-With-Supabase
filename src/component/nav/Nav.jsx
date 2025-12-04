@@ -4,6 +4,7 @@ import supabase from "../../Utils/supabase";
 import { useSelector } from "react-redux";
 
 function Nav() {
+  const [user, setUser] = useState("");
   const value = useSelector((state) => state.counter.value);
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,11 +20,14 @@ function Nav() {
 
   useEffect(() => {
     const checkSession = async () => {
-      const { data } = await supabase.auth.getSession();
-      if (data.session) navigate("/");
+      const user = (await supabase.auth.getSession())?.data.session.user;
+      setUser(user);
+      if (user) navigate("/");
     };
     checkSession();
   }, []);
+
+  console.log(user);
 
   return (
     <header className="bg-white shadow-md p-4 relative z-50">
@@ -103,13 +107,20 @@ function Nav() {
             >
               🛒 Cart: {value}
             </button>
-
-            <button
-              onClick={handleLogout}
-              className="hover:bg-gray-300 py-2 px-5 rounded-lg font-semibold"
-            >
-              SignOut
-            </button>
+            {user && (
+              <button
+                onClick={handleLogout}
+                className="hover:bg-gray-300 py-2 px-5 rounded-lg font-semibold"
+              >
+                SignOut
+              </button>
+            )}
+            {
+              !user && <button onClick={() => navigate("/login")} className="hover:bg-gray-300 py-2 px-5 rounded-lg font-semibold">Sign In</button>
+            }
+            {
+              !user && <button onClick={() => navigate("/register")} className="hover:bg-gray-300 py-2 px-5 rounded-lg font-semibold">Sign Up</button>
+            }
           </div>
         </div>
       </div>
