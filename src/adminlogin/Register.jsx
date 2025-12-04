@@ -18,7 +18,7 @@ const Register = () => {
     const { data, error } = await supabase.auth.signUp({
       email: email,
       password: password,
-      options: { emailRedirectTo: "http://localhost:5173" },
+      options: { emailRedirectTo: "http://localhost:5174/" },
     });
     if (error) {
       alert(error.message);
